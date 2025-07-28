@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.background{
+    background-image: url("https://www.shutterstock.com/image-photo/breakfast-brunch-table-scene-on-260nw-2427890805.jpg");
+    background-size: cover;
+    width:210vh;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    font-size: 30px;
+    font-weight: 600px;
+    font-family: sans-serif;
+}
+.btn{
+    width:100px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.center{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.card{
+    width: 200px;
+    height: 250px;
+    background-color: darkgreen;
+    box-shadow: 0 4px 8px rgba(0.0.0.0.15);
+    border-radius: 20px;
+    
+}
+.image{
+    width: 200px;
+    height: 160px;
+}
+.title{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: sans-serif;
+    margin-left: 16px;
+}
+.price{
+     color: whitesmoke;
+    font-size: 18px;
+    font-weight: 500px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 16px;
+
+
+}
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
